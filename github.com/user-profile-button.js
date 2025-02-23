@@ -1,9 +1,6 @@
-console.log("Adding profile button");
 window.addEventListener("DOMContentLoaded", () => {
-  const ele = document.querySelector(
-    "#switch_dashboard_context_left_column-button"
-  );
-  const userName = ele.innerText;
+  const ele = document.querySelector('meta[name="user-login"]');
+  const userName = ele.content;
 
   const container = document.querySelector(".AppHeader-globalBar-start");
   const profileLink = document.createElement("a");
