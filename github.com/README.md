@@ -8,3 +8,10 @@ github.com##.AppHeader-CopilotChat:remove()
 ```
 github.com##.copilotPreview__container:remove()
 ```
+
+## Add Profile button on header
+When clicked, redirects to `https://github.com/<username>` on a new tab
+![profile-button](./profile-button.png)
+```
+github.com##+js(profile-button.js)
+```
